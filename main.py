@@ -810,4 +810,4 @@ def logout():
     session.clear()
     return redirect("/")
 
-app.run(debug=True)
+app.run(debug=True, port=80, host="0.0.0.0")
